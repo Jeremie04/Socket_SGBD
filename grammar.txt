@@ -1,0 +1,23 @@
+
+(Ajouter 'data' devant chaque requete sur database ou sur table
+    ex : datacreate dtabase databaseName
+)
+
+--Pour les Databases
+create database databaseName
+use databaseName
+drop database databaseName
+
+--Pour Table Manager
+create table NomTable:col1;col2;...
+insert into NomTable:data1;data2;...
+drop NomTable  (delete the table)
+delete NomTable     (delete the data of the table)
+
+--Pour les fonctionnalites
+select * from table1 where col=value
+join table1 with table2 on colonne
+intersect tab1 with tab2
+substract table1 with table2
+divide tab1 with table2
+Unify table1 with table2
